@@ -1,0 +1,29 @@
+*.prisma linguist-vendored
+# JavaScript files
+*.js linguist-language=JavaScript
+
+# TypeScript files
+*.ts linguist-language=TypeScript
+
+# Specify attributes for common Node.js module files
+node_modules/** linguist-vendored
+*.d.ts linguist-vendored
+
+# Specify attributes for specific package files
+axios/** linguist-generated
+bcrypt/** linguist-generated
+cors/** linguist-generated
+dotenv/** linguist-generated
+express/** linguist-generated
+firebase-admin/** linguist-generated
+https/** linguist-generated
+jsonwebtoken/** linguist-generated
+moment/** linguist-generated
+node-cron/** linguist-generated
+nodemailer/** linguist-generated
+nodemon/** linguist-generated
+querystring/** linguist-generated
+ts-node/** linguist-generated
+twilio/** linguist-generated
+typescript/** linguist-generated
+validate.js/** linguist-generated
